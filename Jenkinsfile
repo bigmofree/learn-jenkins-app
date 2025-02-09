@@ -20,10 +20,11 @@ pipeline {
                 '''
             }
         }
-    }
-}
+    
         stage('Test'){
             steps {
                 echo 'GM'
             }
          }
+    }
+}
